@@ -10,3 +10,6 @@
     }
     return array;
 }
+
+string[] arr = GetArray();
+
