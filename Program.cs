@@ -13,7 +13,7 @@
 
 string[] arr = GetArray();
 
-void GetSrtingFromArray(string[] arr)
+void GetStringFromArray(string[] arr)
 {
     int count = 0;
     for (int i = 0; i < arr.Length; i++)
@@ -39,3 +39,5 @@ void GetSrtingFromArray(string[] arr)
     Console.WriteLine("Массив из строк длина которых меньше либо равна 3 символа:");
     Console.WriteLine(string.Join(", ", arrayLessThree));
 }
+
+GetStringFromArray(arr);
